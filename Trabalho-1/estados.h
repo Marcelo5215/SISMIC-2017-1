@@ -22,16 +22,16 @@
     void hold_s(void);
 
     //Vidro descendo, enquanto chave1 apertada e nao no limite
-    void abrindo(void);
+    void open(void);
 
     //Vidro subindo, enquanto chave2 apertada e nao no limite
-    void fechando(void);
+    void close(void);
 
     //Vidro no limite inferior
-    void limiteInf(void);
+    void limTop(void);
 
     //Vidro no limite superior
-    void limiteSup(void);
+    void limBot(void);
 
 
 
