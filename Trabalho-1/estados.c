@@ -47,7 +47,7 @@ void open(void){
 
     //L
     if((P2IN & LIM) == 0){      //se LIM for atingido
-        estadoAtual = limTop;
+        estadoAtual = limBot;
     }
     //~S1 * S2
     else if(((P2IN & S1)!=0) && ((P1IN & S2)==0)){  //se S2 estiver pressionada e S1 nao
